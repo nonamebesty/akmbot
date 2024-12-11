@@ -7,7 +7,7 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "1923471"))
 	API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6698166713:AAHI_H9JHd4Ntwrha0GC2SiRbDNIBi3kCIM")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "akmfilestorr3bot")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002461730224"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "880087645"))
